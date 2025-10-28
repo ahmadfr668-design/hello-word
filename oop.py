@@ -53,20 +53,20 @@ print(p1.age)
 
 #Create a Person class with multiple parameters:
 
-#class Person: 
+class Person: 
        
-  #def __init__(self, name, age, city, country):
-   # self.name = name
-   # self.age = age
-   # self.city = city
-   # self.country = country
+  def __init__(self, name, age, city, country):
+    self.name = name
+   self.age = age
+   self.city = city
+   self.country = country
 
-#p1 = Person("Linus", 30, "Oslo", "Norway")
+p1 = Person("Linus", 30, "Oslo", "Norway")
 
-#print(p1.name)
-#print(p1.age)
-#print(p1.city)
-#print(p1.country)
+print(p1.name)
+print(p1.age)
+print(p1.city)
+print(p1.country)
 
 #Inheritance allows us to define a class that inherits all the methods and properties from another class.
 #Parent class is the class being inherited from, also called base class.
@@ -140,4 +140,5 @@ x = Student("ahmad", "Olsen")
 x.printname()
 
     
+
        
